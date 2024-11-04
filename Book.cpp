@@ -27,7 +27,7 @@ void Book::displayInfo() {
     << "\nTitle: " << _title
     << "\nAuthor: " << _author
     << "\nPublication Date: " << _datePublish.day << '/' << _datePublish.month << '/' << _datePublish.year
-    << "\nIsbn: "<< _isbn
+    << "\nIsbn Code: "<< _isbn
     << "\nAcquisition Date: " << _acquisitonDate.day << '/' << _acquisitonDate.month << '/' << _acquisitonDate.year
     << "\nAvailable: " << (_available ? '✅':'❌') << std::endl;
 }
