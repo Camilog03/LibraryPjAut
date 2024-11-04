@@ -6,14 +6,6 @@
 #define BOOK_H
 #include <iostream>
 
-struct Author {
-
-    std::string name;
-    int bornDay;
-    std::string country;
-
-};
-
 struct Date {
 
     int day;
@@ -26,10 +18,23 @@ struct Date {
 class Book {
 
 private:
-    std::string title;
-    Author author;
-    int agePublish:
-    int
+    std::string _title;
+    std::string _author;
+    Date _datePublish;
+    Date _acquisitonDate;
+    int _isbn;
+    bool _available;
+
+public:
+
+    Book(std::string title, std::string author, Date datePublish, Date acquisitionDate, int isbn);
+    ~Book();
+
+    void checkOut();
+    void returnBook();
+
+    void displayInfo();
+
 
 };
 
