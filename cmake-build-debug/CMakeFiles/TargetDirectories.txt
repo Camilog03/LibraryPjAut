@@ -1,0 +1,3 @@
+C:/Users/gilju/OneDrive/Escritorio/UNIVERSIDAD/2_Semestre/programacion_orientada_a_objetos/projects/Library_Management/cmake-build-debug/CMakeFiles/Library_Management.dir
+C:/Users/gilju/OneDrive/Escritorio/UNIVERSIDAD/2_Semestre/programacion_orientada_a_objetos/projects/Library_Management/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/gilju/OneDrive/Escritorio/UNIVERSIDAD/2_Semestre/programacion_orientada_a_objetos/projects/Library_Management/cmake-build-debug/CMakeFiles/rebuild_cache.dir
