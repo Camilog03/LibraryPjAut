@@ -61,6 +61,12 @@ build CMakeFiles/Library_Management.dir/Book.cpp.obj: CXX_COMPILER__Library_Mana
   OBJECT_DIR = CMakeFiles\Library_Management.dir
   OBJECT_FILE_DIR = CMakeFiles\Library_Management.dir
 
+build CMakeFiles/Library_Management.dir/User.cpp.obj: CXX_COMPILER__Library_Management_unscanned_Debug C$:/Users/gilju/OneDrive/Escritorio/UNIVERSIDAD/2_Semestre/programacion_orientada_a_objetos/projects/Library_Management/User.cpp || cmake_object_order_depends_target_Library_Management
+  DEP_FILE = CMakeFiles\Library_Management.dir\User.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Library_Management.dir
+  OBJECT_FILE_DIR = CMakeFiles\Library_Management.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Library_Management
@@ -69,7 +75,7 @@ build CMakeFiles/Library_Management.dir/Book.cpp.obj: CXX_COMPILER__Library_Mana
 #############################################
 # Link the executable Library_Management.exe
 
-build Library_Management.exe: CXX_EXECUTABLE_LINKER__Library_Management_Debug CMakeFiles/Library_Management.dir/main.cpp.obj CMakeFiles/Library_Management.dir/Book.cpp.obj
+build Library_Management.exe: CXX_EXECUTABLE_LINKER__Library_Management_Debug CMakeFiles/Library_Management.dir/main.cpp.obj CMakeFiles/Library_Management.dir/Book.cpp.obj CMakeFiles/Library_Management.dir/User.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Library_Management.dir

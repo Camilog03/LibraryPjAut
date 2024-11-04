@@ -5,4 +5,6 @@ set(CMAKE_CXX_STANDARD 20)
 
 add_executable(Library_Management main.cpp
         Book.cpp
-        Book.h)
+        Book.h
+        User.cpp
+        User.h)
